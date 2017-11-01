@@ -12,7 +12,7 @@ class EwmaModuleInstaller extends LibraryInstaller
     {
         $package->getName();
 
-        return 'modules/' . $package->getName();
+        return 'modules-vendor/' . $package->getName();
     }
 
     /**
