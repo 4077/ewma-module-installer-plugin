@@ -1,0 +1,19 @@
+{
+    "name": "fed/ewma-module-installer-plugin",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "fed\\EwmaModuleInstaller\\": "src/fed/EwmaModuleInstaller"
+        }
+    },
+    "extra": {
+        "class": "fed\\EwmaModuleInstaller\\EwmaModuleInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.3"
+    }
+}
